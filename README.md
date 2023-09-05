@@ -27,7 +27,7 @@ If you don't own a system with an NVIDIA GPU, or you just wish to quickly test t
 
  * Open Google Colab https://colab.research.google.com and create a new notebook. Use the "Python 3" runtime and change hardware acceleration to "T4 GPU" (this provides basic GPU support)
  * Install the framework within the Colab session by executing this command:
-   `!wget https://computational-immunology.org/gpu-cpm.zip && unzip -q gpu-cpm.zip && pip3 install ./gpu-cpm`
+   `!wget https://github.com/shabaz/gpu-cpm/archive/master.zip && unzip -q gpu-cpm.zip && pip3 install ./gpu-cpm`
  * Test the installed framework by running the provided examples using
   `!python gpu-cpm/examples/example2d.py` or `!python gpu-cpm/examples/example3d.py`
 
