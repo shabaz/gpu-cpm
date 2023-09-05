@@ -1,0 +1,9 @@
+name: gpucpm_build
+channels:
+  - nvidia
+  - conda-forge
+dependencies:
+  - numpy
+  - cuda-minimal-build
+  - pillow
+  - basemap

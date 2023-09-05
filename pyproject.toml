@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 45.1","numpy >= 1.19"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpucpm"
+version = "0.1.0"
+description = "A parallelized Cellular Potts Model implemented using CUDA."
+readme = "README.md"
+license = {file = "LICENSE"} 
+authors = [
+	{ name="Shabaz Sultan", email="shabaz.sultan@ru.nl" },
+	{ name="Johannes Textor", email="johannes.textor@ru.nl" }
+]
+
+[project.urls]
+homepage = "https://computational-immunology.org"
+
